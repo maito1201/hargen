@@ -1,0 +1,41 @@
+{
+  "name": "@maito1201/hargen",
+  "version": "0.2.0",
+  "description": "Harness generator — analyze Claude Code conversation logs to improve your CLAUDE.md",
+  "type": "module",
+  "bin": {
+    "hargen": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "skills"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "lint": "tsc --noEmit",
+    "test": "node --test dist/**/*.test.js",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "harness",
+    "prompt-engineering",
+    "claude-md"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maito1201/hargen.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0"
+  }
+}

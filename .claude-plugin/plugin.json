@@ -1,0 +1,5 @@
+{
+  "name": "hargen",
+  "description": "Analyze Claude Code conversation logs to discover feedback patterns and improve your harness (CLAUDE.md / hooks / skills)",
+  "version": "0.2.0"
+}

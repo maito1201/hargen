@@ -1,0 +1,13 @@
+{
+  "name": "hargen",
+  "owner": {
+    "name": "maito1201"
+  },
+  "plugins": [
+    {
+      "name": "hargen",
+      "source": "./",
+      "description": "Analyze Claude Code conversation logs to discover feedback patterns and improve your harness (CLAUDE.md / hooks / skills)"
+    }
+  ]
+}
