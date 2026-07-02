@@ -36,7 +36,7 @@ const SYSTEM_MARKERS = [
   "This session is being continued from",
 ];
 
-function isNoise(text: string): boolean {
+export function isNoise(text: string): boolean {
   if (text.length < 5) return true;
   if (COMMAND_NOISE.has(text)) return true;
   if (SYSTEM_MARKERS.some((m) => text.startsWith(m))) return true;

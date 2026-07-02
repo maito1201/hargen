@@ -1,6 +1,6 @@
 {
   "name": "@maito1201/hargen",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Harness generator — analyze Claude Code conversation logs to improve your CLAUDE.md",
   "type": "module",
   "bin": {
