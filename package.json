@@ -4,7 +4,7 @@
   "description": "Harness generator — analyze Claude Code conversation logs to improve your CLAUDE.md",
   "type": "module",
   "bin": {
-    "hargen": "./dist/index.js"
+    "hargen": "dist/index.js"
   },
   "files": [
     "dist",
